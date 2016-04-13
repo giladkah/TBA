@@ -24,6 +24,7 @@ public class Main {
     staticFileLocation("/public");
 	
     get("/hello", (req, res) -> "Hello World");
+    get("/hello2", (req, res) -> "Hello2 World2");
 
     get("/gilad", (request, response) -> {
     	WebDriver driver = new HtmlUnitDriver();
